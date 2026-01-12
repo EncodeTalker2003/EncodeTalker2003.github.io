@@ -11,54 +11,21 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, University of Illinois at Urbana-Champaign, Aug. 2025 - Present
+* B.S. in Information and Computing Science, Peking University, Sep. 2021 - Jun. 2025
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan. 2023 - Jun. 2025: Research Assistant
+  * Program Languages Lab, Peking University
+  * Using and improving formal verification tools for real-world operating systems
+  * Supervisor: Prof. Xin Zhang
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* June 2024 – Sept. 2024: Research Assistant
+  * madPL, University of Wisconsin-Madison
+  * Improve analysis result of automatic differentiation via abstract interpretation
+  * Supervisor: Prof. Thomas W. Reps
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Serve as president of Peking University Student Algorithm Association from Feb. 2024 to Feb. 2025.

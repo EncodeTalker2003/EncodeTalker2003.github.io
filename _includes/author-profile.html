@@ -173,4 +173,12 @@
       {% endif %}      
     </ul>
   </div>
+
+  <div class="author__another-avatar">
+    {% if author.another_avatar contains "://" %}
+    	<img src="{{ author.another_avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    {% else %}
+    	<img src="{{ author.another_avatar | prepend: "/images/" | prepend: base_path }}" class="author__another-avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    {% endif %}
+  </div>
 </div>
